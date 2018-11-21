@@ -1,0 +1,417 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1250px) {
+    .page-left-wrap{
+        width: 20%;
+    }
+    .page-right-wrap{
+        width: 80%;
+    }
+    .left-page-content{
+        width: 69.23%;
+    }
+    .right-page-content{
+        width: 30.77%;
+    }
+}
+@media only screen and (max-width : 1200px) {
+    .page-block-content{
+        height: 100%;
+    }
+    .block-info-wrap.block-info-wrap {
+        width: 50%;
+    }
+    .touch-header-content{
+        display: block;
+
+        height: 515px;
+        background: -webkit-linear-gradient(#ffffff, #dfdeda); /* For Safari 5.1 to 6.0 */    
+        background: -o-linear-gradient(#ffffff, #dfdeda); /* For Opera 11.1 to 12.0 */    
+        background: -moz-linear-gradient(#ffffff, #dfdeda); /* For Firefox 3.6 to 15 */    
+        background: linear-gradient(#ffffff, #dfdeda); /* Standard syntax */;
+
+        padding: 35px 100px 0px;
+    }
+    .block-slider{
+        display: none;
+    }
+    .inner-block-content{
+        margin-top: -164px;
+    
+        margin-bottom: 164px;
+}
+    .text-block-touch .btn {
+        background-color: #f6f6f5;
+        border-radius: 0;
+        border: 1px solid #d2d2d1;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 200;
+        text-transform: uppercase;
+        padding: 14px 56px;
+    }
+    .text-block-touch{
+        text-align: center;
+        color: #000000;
+        font-weight: 200;
+    }
+    .text-block-touch h1{
+        font-size: 40px;
+        color: #000000;
+        font-weight: 200;
+        margin: 0;
+    }
+    .text-block-touch p{
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+        font-weight: 300;
+        margin-bottom: 40px;
+        padding-top: 10px;
+    }
+    .left-page-content{
+        width: 100%;
+
+        padding-right: 0;
+    }
+    .right-page-content{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 1100px) {
+    .right-bottom-header{
+        display: none;
+    }
+    .left-bottom-header{
+        float: right;
+
+        width: 100%;
+    }
+    .menu-container .navbar-toggle{
+        border: none;
+
+        margin: 0;
+        padding: 0;
+    }
+    .menu-container .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+        height: 5px;
+        width: 48px;
+    }
+    .menu-container .icon-bar+.icon-bar {
+        margin-top: 10px;
+    }
+    .inner-header{
+        padding: 55px 13px;
+
+        overflow: hidden;
+        padding-bottom: 17px;
+        position: relative;
+    }
+    .top-header .social-header{
+        display: none;
+    }
+    .inner-header hr{
+        display: none;
+    }
+    .bottom-header{
+        padding-top: 24px;
+
+    }
+    .left-top-header{
+        position: absolute;
+
+        top: 104px;
+        left: 13px;
+    }
+    header .navbar-default{
+        min-height: 0;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .menu-container #navbar{
+        margin-left: 0;
+
+        overflow: hidden;
+
+        margin-top: 5px;
+    }
+    .menu-container .navbar-nav{
+        margin-left: 0;
+
+    }
+    .navbar-nav li.current a:after{
+        width: 50px;
+
+        height: 0;
+        bottom: -3px;
+    }
+    .tel-header .tel-num{
+            font-size: 22px;
+    }
+    .tel-footer .tel-num{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width : 920px) {
+    .bottom-footer-menu li {
+        float: none;
+        text-align: center;
+
+        margin-bottom: 15px;
+    }
+
+    .bottom-footer-menu a {
+        float: none;
+    }
+
+    .bottom-footer-menu li:after {
+        content: '';
+        padding: 0;
+        height: 0;
+    }
+    .top-footer-menu a {
+        font-size: 20px;
+    }
+
+    .bottom-footer-menu a {
+    }
+
+    .bottom-footer {
+        padding-bottom: 20px;
+    }
+    .top-footer-menu {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-bottom: 38px;
+    }
+
+    .top-footer-social {
+        width: 100%;
+        float: none;
+    }
+
+    .right-top-footer {
+        float: none;      overflow: hidden;      
+        width: 390px;      margin: 0 auto;
+    }
+
+    .social-footer {
+        padding-right: 0;
+    }
+
+    .top-footer .top-footer-menu ul {
+        float: none;
+        overflow: hidden;
+        width: 415px;
+        margin: 0 auto;
+    }
+
+    .top-footer-social .fa {
+        font-size: 31px;
+    }
+
+    .tel-footer .fa-phone {
+        font-size: 19px;
+    
+        padding-right: 15px;
+}
+
+    .tel-footer {
+        margin-top: 4px;
+    }
+
+    .top-footer {
+        padding-bottom: 19px;
+        padding-top: 22px;
+    }
+    .page-left-wrap{
+        width: 100%;
+
+        margin-bottom: 9px;
+    }
+    .page-right-wrap{
+        width: 100%;
+    }
+    .page-block-content{
+        padding: 0 13px;
+    }
+    .page-image-block-desktop{
+        display: none;
+    }
+    .page-image-block-touch{
+        display: block;
+
+        margin-bottom: 33px;
+    }
+    .page-left-block h1{
+        margin-top: 0;
+    }
+    .left-menu-wrap{
+        border-right: none;
+        padding-top: 18px;
+    }
+    .left-menu-block nav > ul > li:not(.current){
+        display: none;
+    }
+    .left-menu-block ul{
+        font-size: 22px;
+        line-height: 50px;
+    }
+    .left-menu-block ul li.active a:after{
+        top: 22px;
+    }
+    .left-page-content p{
+        font-size: 18px;
+    }
+    .left-page-content .page-sep{
+        margin-top: 36px;
+
+    }
+    .left-page-content ul{
+        font-size: 18px;
+    }
+    .left-page-content .video-block {
+        margin-bottom: 38px;
+    }
+    .left-page-content{
+        margin-bottom: 49px;
+
+    }
+    .right-page-content{
+        padding-left: 15px;
+
+        padding-right: 15px;
+    }
+    .right-page-content-desktop{
+        display: none;
+    }
+    .right-page-content-touch{
+        display: block;
+    }
+    .right-page-content-touch a.btn{
+        font-size: 20px;
+
+        max-width: 330px;
+    }
+    .right-page-content-touch .right-page-tel .fa-phone{
+        padding-right: 8px;
+    }
+    .right-page-content-touch .page-sep{
+        max-width: 232px;
+
+        margin: 27px auto 25px auto;
+    }
+    .right-page-content-touch h3{
+        font-size: 18px;
+    }
+    .right-page-content-touch p b{
+        margin: 23px 0;
+
+        display: block;
+    }
+    .right-page-content-touch p{
+        font-size: 18px;
+    
+        font-weight: 300;
+}
+    .left-page-content h2{
+        padding: 0 86px;
+    }
+    .page-block-content{
+    margin-bottom: 16px;
+        
+    }
+}
+@media only screen and (max-width : 820px) {
+    .block-info-wrap.block-info-wrap {
+        width: 100%;
+    }
+    .block-info{
+        max-width: 465px;
+
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width : 640px) {
+    .text-block-touch .line1{
+        /* display: block; */
+
+    }
+    .text-block-touch .line2{
+        /* display: block; */
+
+    }
+    .text-block-touch .line3{
+
+    }
+}
+@media only screen and (max-width : 580px) {
+    .touch-header-content{
+        padding: 35px 20px 0px; 
+    }
+    .inner-block-content {
+        margin-top: -100px;
+    }
+    .top-footer-inner{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .left-block-info{
+        width: 100%;
+    }
+    .right-block-info{
+        width: 100%;
+        float: left;
+
+        padding-top: 20px;
+    }
+    .block-info{
+        overflow: hidden;
+
+        height: auto;
+    }
+    .inner-block-content{
+        margin-top: -75px;
+    }
+    .text-block-touch .btn{
+        max-width: 300px;
+
+        padding: 14px 0;
+        width: 100%;
+    }
+    .top-footer .top-footer-menu ul{
+        width: 300px;
+    }
+    .top-footer .top-footer-menu li::after{
+        padding: 4px;
+    }
+    .social-footer{
+    float: none;
+        
+    margin-bottom: 12px;
+}
+    .tel-footer{
+    float: none;
+        
+    display: inline-block;
+}
+    .right-top-footer{
+    text-align: center;
+        
+    }
+    .top-footer-menu a{
+    font-size: 18px;
+        
+    }
+}
+@media only screen and (max-width: 358px) {
+    .right-top-footer{
+        width: 300px;
+    }
+    .left-top-header{
+        top: 11px;
+    }
+}
